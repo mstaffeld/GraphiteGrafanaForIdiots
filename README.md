@@ -1,4 +1,4 @@
-# Graphite and Grafana for Idiots
+# Graphite and Grafana Setup
 
 ##### I created this repository to help myself as a referecne. 
 
@@ -37,12 +37,12 @@ Share mapping, you will need to map some volumes from the docker host to within 
 ```
 ssh jismetrics@jismetrics.cloudapp.net
 <<Enter Password>>
-git clone https://github.com/mstaffeld/GraphiteGrafanaForIdiots.git
+git clone https://github.com/mstaffeld/GraphiteGrafanaSetup.git
 ```
 
 ##### Build the docker.
 ```
-cd GraphiteGrafanaForIdiots/
+cd GraphiteGrafanaSetup/
 git clone https://github.com/nickstenning/docker-graphite.git
 ./build.sh
 ```
