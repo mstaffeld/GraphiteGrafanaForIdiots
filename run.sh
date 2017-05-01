@@ -1,1 +1,1 @@
-docker run -d -p 80:80 -p 3000:3000 -p 2003:2003/udp -p 2003:2003 -p 8125:8125/udp -p 8126:8126 -v /var/lib/grafana:/var/lib/grafana -v /var/lib/graphite/storage/whisper:/var/lib/graphite/storage/whisper -e "GF_SECURITY_ADMIN_PASSWORD=secret" jisgrafana:latest
+docker run -d -p 80:80 -p 3000:3000 -p 2003:2003/udp -p 2003:2003 -p 8125:8125/udp -p 8126:8126 -v /home/jismetrics/data/grafana:/var/lib/grafana -v /home/jismetrics/data/graphite/storage/whisper:/var/lib/graphite/storage/whisper -e "GF_SECURITY_ADMIN_PASSWORD=secret" jisgrafana:latest
