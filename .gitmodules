@@ -1,0 +1,3 @@
+[submodule "docker-graphite"]
+	path = docker-graphite
+	url = https://github.com/nickstenning/docker-graphite.git
